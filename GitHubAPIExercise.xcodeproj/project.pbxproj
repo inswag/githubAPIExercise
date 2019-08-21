@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		76A1927A5336952239D2D33C /* Pods_GitHubAPIExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B74637D47A1C03173E24FD4 /* Pods_GitHubAPIExercise.framework */; };
 		F911EF0D230D0EA3009A8913 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F911EF0C230D0EA3009A8913 /* AppDelegate.swift */; };
-		F911EF0F230D0EA3009A8913 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F911EF0E230D0EA3009A8913 /* ViewController.swift */; };
 		F911EF12230D0EA3009A8913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F911EF10230D0EA3009A8913 /* Main.storyboard */; };
 		F911EF14230D0EA4009A8913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F911EF13230D0EA4009A8913 /* Assets.xcassets */; };
 		F911EF17230D0EA4009A8913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F911EF15230D0EA4009A8913 /* LaunchScreen.storyboard */; };
+		F911EF25230D10C3009A8913 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F911EF24230D10C3009A8913 /* Coordinator.swift */; };
+		F911EF27230D10F3009A8913 /* MainTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F911EF26230D10F3009A8913 /* MainTableVC.swift */; };
+		F911EF29230D10FF009A8913 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F911EF28230D10FF009A8913 /* SecondVC.swift */; };
+		F911EF2B230D11B3009A8913 /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F911EF2A230D11B3009A8913 /* UserList.swift */; };
+		F911EF2D230D11E4009A8913 /* UserListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F911EF2C230D11E4009A8913 /* UserListCell.swift */; };
+		F911EF2F230D1226009A8913 /* UserListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F911EF2E230D1226009A8913 /* UserListService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +26,16 @@
 		EED40071EAD9BFE4A0FD0B28 /* Pods-GitHubAPIExercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubAPIExercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubAPIExercise/Pods-GitHubAPIExercise.release.xcconfig"; sourceTree = "<group>"; };
 		F911EF09230D0EA2009A8913 /* GitHubAPIExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubAPIExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F911EF0C230D0EA3009A8913 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F911EF0E230D0EA3009A8913 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F911EF11230D0EA3009A8913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F911EF13230D0EA4009A8913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F911EF16230D0EA4009A8913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F911EF18230D0EA4009A8913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F911EF24230D10C3009A8913 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F911EF26230D10F3009A8913 /* MainTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableVC.swift; sourceTree = "<group>"; };
+		F911EF28230D10FF009A8913 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		F911EF2A230D11B3009A8913 /* UserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
+		F911EF2C230D11E4009A8913 /* UserListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListCell.swift; sourceTree = "<group>"; };
+		F911EF2E230D1226009A8913 /* UserListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,14 +79,76 @@
 		F911EF0B230D0EA3009A8913 /* GitHubAPIExercise */ = {
 			isa = PBXGroup;
 			children = (
-				F911EF0C230D0EA3009A8913 /* AppDelegate.swift */,
-				F911EF0E230D0EA3009A8913 /* ViewController.swift */,
-				F911EF10230D0EA3009A8913 /* Main.storyboard */,
-				F911EF13230D0EA4009A8913 /* Assets.xcassets */,
-				F911EF15230D0EA4009A8913 /* LaunchScreen.storyboard */,
+				F911EF23230D1096009A8913 /* Basic */,
+				F911EF1E230D1049009A8913 /* Service */,
+				F911EF1F230D105E009A8913 /* Model */,
+				F911EF20230D1061009A8913 /* View */,
+				F911EF21230D106F009A8913 /* Controller */,
+				F911EF22230D107D009A8913 /* Coordinator */,
+				F911EF30230D130A009A8913 /* Support */,
 				F911EF18230D0EA4009A8913 /* Info.plist */,
 			);
 			path = GitHubAPIExercise;
+			sourceTree = "<group>";
+		};
+		F911EF1E230D1049009A8913 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F911EF2E230D1226009A8913 /* UserListService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F911EF1F230D105E009A8913 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F911EF2A230D11B3009A8913 /* UserList.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F911EF20230D1061009A8913 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F911EF2C230D11E4009A8913 /* UserListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F911EF21230D106F009A8913 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F911EF26230D10F3009A8913 /* MainTableVC.swift */,
+				F911EF28230D10FF009A8913 /* SecondVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F911EF22230D107D009A8913 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F911EF24230D10C3009A8913 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		F911EF23230D1096009A8913 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				F911EF0C230D0EA3009A8913 /* AppDelegate.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		F911EF30230D130A009A8913 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F911EF10230D0EA3009A8913 /* Main.storyboard */,
+				F911EF13230D0EA4009A8913 /* Assets.xcassets */,
+				F911EF15230D0EA4009A8913 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 		F92FD82E57E268A6C0B76862 /* Pods */ = {
@@ -224,8 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F911EF0F230D0EA3009A8913 /* ViewController.swift in Sources */,
+				F911EF27230D10F3009A8913 /* MainTableVC.swift in Sources */,
 				F911EF0D230D0EA3009A8913 /* AppDelegate.swift in Sources */,
+				F911EF2D230D11E4009A8913 /* UserListCell.swift in Sources */,
+				F911EF2F230D1226009A8913 /* UserListService.swift in Sources */,
+				F911EF25230D10C3009A8913 /* Coordinator.swift in Sources */,
+				F911EF2B230D11B3009A8913 /* UserList.swift in Sources */,
+				F911EF29230D10FF009A8913 /* SecondVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +452,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C6T929VMZT;
 				INFOPLIST_FILE = GitHubAPIExercise/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.inswag.GitHubAPIExercise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -391,7 +471,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C6T929VMZT;
 				INFOPLIST_FILE = GitHubAPIExercise/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.inswag.GitHubAPIExercise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
