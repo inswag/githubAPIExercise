@@ -1,0 +1,2 @@
+# githubAPIExercise
+GithubAPI + pagination example
