@@ -1,0 +1,6 @@
+framework module Pods_GitHubAPIExercise {
+  umbrella header "Pods-GitHubAPIExercise-umbrella.h"
+
+  export *
+  module * { export * }
+}
